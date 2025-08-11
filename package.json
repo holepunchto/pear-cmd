@@ -1,11 +1,14 @@
 {
   "name": "pear-cmd",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
   "description": "Pear command parser & definitions",
   "license": "Apache-2.0",
-  "files": ["pear.js", "run.js"],
+  "files": [
+    "pear.js",
+    "run.js"
+  ],
   "scripts": {
     "test:gen": "brittle -r test/all.js test/*.test.js",
     "test": "brittle-bare --coverage test/all.js",
