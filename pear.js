@@ -5,7 +5,10 @@ module.exports = [
   flag('-v', 'Print version'),
   flag('--log-labels|-l <list>', 'Labels to log. If set, implies --log'),
   flag('--log-level|-L <level>', 'Level to log at. 0,1,2,3 (OFF,ERR,INF,TRC)'),
-  flag('--log-fields|-F <list>', 'Show/hide: date,time,h:level,h:label,h:delta'),
+  flag(
+    '--log-fields|-F <list>',
+    'Show/hide: date,time,h:level,h:label,h:delta'
+  ),
   flag('--log-verbose|-V', 'Log with all fields enabled'),
   flag('--log-stacks|-S', 'Add a stack trace to each log message'),
   flag('--log-max|-M', 'Log with all levels, logs and fields'),
