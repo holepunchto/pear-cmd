@@ -15,7 +15,7 @@ module.exports = [
   flag('--unsafe-clear-app-storage', 'Clear app storage'),
   flag('--unsafe-clear-preferences', 'Clear preferences (inc trustlist)'),
   flag('--appling <path>', 'Set application shell path'),
-  flag('--checkout <n|release|preview>', 'Run a checkout from version length'),
+  flag('--checkout <n|release|latest>', 'Run a checkout from version length'),
   flag('--detached', 'Wakeup existing app or run detached'),
   flag('--no-pre', 'Skip pre scripts'),
   flag('--pre-io', 'Show stdout & stderr of pre scripts'),
